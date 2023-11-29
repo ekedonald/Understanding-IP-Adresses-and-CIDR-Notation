@@ -11,6 +11,8 @@ They are mathematically produced and allocated by the Internet Assigned Numbers 
 
 ICANN is a non-profit organization that was established in the United States in 1998 to help maintain the security of the internet and allow it to be usable by all. Each time anyone registers a domain on the internet, they go through a domain name registrar, who pays a small fee to ICANN to register the domain.
 
+![What is IP Address](./images/What%20is%20IP%20Address.png)
+
 ## Subnetting & Subnet Masks
 ### What is Subnetting?
 Subnetting is the practice of dividing a network into two or smaller networks. It increases routing efficiency which helps to enhance the security of the network and reduces the size of the broadcast domain.
@@ -18,14 +20,18 @@ IP Subnetting designates high-order bits from the host as part of the network pr
 
 This method divides a network into smaller subnets. It also helps to reduce the size of the routing tables, which are stored in routers. This method also helps in extending the existing IP address base & restructures the IP address.
 
+![What is Subnetting](./images/Subnetting.png)
+
 ### What is a Subnet Mask? 
 A subnet mask is a 32-bit address used to distinguish between a Network Address and a Host Address in an IP address. A subnet mask identifies which part of an IP address is the Network Address and the Host Address. They are not shown inside the data packets traversing the Internet. They carry the destination IP address, which a router will match with a subnet.
 
 ## CIDR Notation & Address Aggregation
 ### What is CIDR?
-Classless Inter-Domain Routing (CIDR) is an IP address allocation method that improves data routing efficiency on the internet. Every machine, server and end-user device that connects to the internet has a unique number called an IP address associated with it. 
+Classless Inter-Domain Routing (CIDR) is an IP address allocation method that improves data routing efficiency on the internet. Every machine, server and end-user device that connects to the internet has a unique number called an IP address associated with it.
 
 Devices find and communicate with one another using these IP addresses. Organizations use CIDR to allocate IP addresses flexibly and efficiently in their networks.
+
+![CIDR Conversion Table](./images/CIDR%20Conversion%20Table.png)
 
 ### IP Address Aggregator
 IP Address Aggregator is a utility developed to automate the minimization process and convert a bunch of IPv4 addresses into the smallest continuous range(s) possible. 
@@ -37,6 +43,8 @@ IP aggregation is commonly performed by network engineers working with BGP & rou
 Classful addressing is a network addressing the Internet's architecture from 1981 till Classless Inter-Domain Routing was introduced in 1993. This addressing method divides the IP address into five separate classes based on four address bits.
 
 Here, classes A, B and C offer addresses for networks of three distinct network sizes. Class D is only used for multicast and class E is reserved exclusively for experimental purposes.
+
+![Classful Adressing Table](./images/Classful%20Addresses.png)
 
 Let's see each of the network classes in detail:
 
@@ -91,7 +99,7 @@ Routing protocols exchange information about network destinations between device
 
 There are several types of routing protocols including:
 
-**Distance Vector Routing Protocols**: These protocols use a distance metric (such as hop count) to determine the best path to a destination. Examples include Routing Information Protocol (RIP) and Interior Gateway Routing Protocol (IGRP).
+**Distance Vector Routing Protocols**: These protocols use a distance metric (i.e. hop count) to determine the best path to a destination. Examples include Routing Information Protocol (RIP) and Interior Gateway Routing Protocol (IGRP).
 
 **Link-State Routing Protocols**: These protocols maintain a database of the entire network topology and use this information to determine the best path to a destination. Examples include Open Shortest Path First (OSPF) and Intermediate System-to-Intermediate System (IS-IS).
 
@@ -104,7 +112,7 @@ By understanding the different routing protocols and how they work, you can more
 ### Quality of Service (QOS)
 It is a set of technologies and techniques used to manage and optimize network performance. It is often discussed in the context of advanced TCP/IP networking topics to ensure that critical applications and services receive the bandwidth and resources they need to operate effectively.
 
-There are several key components of QoS, including:
+There are several key components of QoS including:
 
 **Traffic management**: This involves rate limiting and congestion control techniques to ensure that network resources are used efficiently and fairly.
 
@@ -117,9 +125,11 @@ There are several key components of QoS, including:
 By implementing QoS technologies and techniques, organizations can improve the performance and reliability of their networks and ensure that critical applications and services receive the resources they need to operate effectively.
 
 ### Domain Name System (DNS)
-The Domain Name System (DNS) is a hierarchical, distributed database that is used to translate human-readable domain names (i.e. www.example.com) into machine-readable IP addresses (i.e. 192.168.1.1). It is often discussed in the context of advanced TCP/IP networking topics as a critical. component of the internet's infrastructure.
+The Domain Name System (DNS) is a hierarchical, distributed database that is used to translate human-readable domain names (i.e. www.example.com) into machine-readable IP addresses (i.e. 192.168.1.1). 
 
-There are several key components of DNS, including:
+It is often discussed in the context of advanced TCP/IP networking topics as a critical component of the internet's infrastructure.
+
+There are several key components of DNS including:
 
 **Domain Names**: These are the human-readable names used to identify websites and other resources on the internet.
 
